@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Documentation Website</title>
+  </head>
+
+  <body>
+    <header>
+        <img src="/assets/images/logo.png"/>
+      <h1>Email Template Documentation</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Welcome to the documentation for Email Template.</h2>
+      </section>
+
+      <section>
+        <h2>Email Service Providers</h2>
+        <h3>Integrated and tested for most used email providers</h3>
+        <p>
+                <p>Gmail</p>
+                <p>Outlook</p>
+                <p>Yahoo Mail</p>
+                <p>Proton Mail</p>
+        </p>
+      </section>
+
+
+      <section>
+        <h2>Why doesn't normal HTML and CSS work for email templates</h2>
+        <p>
+            <ol>
+                <li><strong>Email Clients Interpretation:</strong> Different email clients have varying levels of support for HTML and CSS. Some clients, like Outlook, might not fully support modern CSS properties and may have problems in rendering.</li>
+                
+                <li><strong>Inline Styles Requirement:</strong> Many email clients require styles to be inline rather than in an external stylesheet. This is different from the standard practice in web development, where styles are often placed in a separate CSS file.</li>
+                
+                <li><strong>Limited CSS Support:</strong> Email clients often have limited support for CSS properties. For example, some may not support certain layout techniques, such as flexbox or grid, leading to challenges in achieving desired designs.</li>
+                
+                <li><strong>Table-Based Layouts:</strong> Tables are commonly used in email templates for layout purposes, as they have better support across various email clients. This approach contrasts with the use of divs and CSS for layout in standard web development.</li>
+                
+                <li><strong>Image Blocking:</strong> Many email clients block images by default, requiring developers to consider alternative ways to convey information without relying solely on images. This can impact the visual appeal and content presentation of the email.</li>
+            </ol>
+        </p>
+    </section>
+    
+
+      <section>
+        <h2>How it works?</h2>
+          <img src="/assets/images/main.svg" />
+      </section>
+     
+      <section>
+        <h2>How our template looks across all the different email service providers</h2>
+        <div>
+            <h2>Gmail View</h2>
+            <img src="/assets/images/gmail.png">
+        </div>
+        <div>
+            <h2>Outlook View</h2>
+            <img src="/assets/images/outlook.png">
+        </div>
+
+        <div>
+          <h2>ProtonMail View</h2>
+          <img src="/assets/images/yahoo.png">
+      </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Vertex Special Technology. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
